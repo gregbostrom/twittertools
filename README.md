@@ -10,7 +10,7 @@ Use the twitter API v2 to operate on a user's account.
 1. Sign up for a Twitter Developer account at https://developer.twitter.com/.
 2. Apply for a new Twitter Developer App. Fill in the required information and submit the application. Once approved, you will receive access to the App Dashboard.
 3. Generate your API Key, API Secret Key, and Bearer Token.
-4. Add an environment variable to `~/.bashrc` or euivalent with
+4. Add an environment variable to `~/.bashrc` or equivalent with
 ```bash
 export BEARER_TOKEN="<Bearer Token String>"
 ```
