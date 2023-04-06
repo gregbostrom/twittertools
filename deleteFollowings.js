@@ -24,6 +24,8 @@ async function deleteFollowings(followings) {
   for (let i = 0; i < followings.length; i++) {
     let following = followings[i];
 
+    console.log(following);
+
     const request_data = {
       url: "https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=${following}&count=5",
       method: "GET",
